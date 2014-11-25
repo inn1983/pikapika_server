@@ -25,7 +25,9 @@ var server = http.createServer(function(req, res) {
 		sp.write("r");
 		
 		//for(i=0; i<4; i++){
-			process.exec('aplay ./Welcome00.wav');
+			process.exec('bash ./soundplay.sh');
+			//process.exec('sleep(5)');
+			//process.exec('aplay ./loop1.wav');
 			
 		//}
 		console.log('cyuumon!');
